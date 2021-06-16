@@ -1,0 +1,63 @@
+.header{
+    background-color:rgb(rgb(34, 94, 134), rgb(59, 82, 59), rgb(88, 88, 119));
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+   
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 50px;
+    position:absolute;
+ 
+}
+
+.grid img{
+    border:2px solid  ;
+    border-radius: 50px;
+    position:relative;
+}
+
+.origami{
+    border-radius: 20px;
+    background-color:#fafaa3;
+
+    width:310px;
+    font-family: cursive;
+    padding: 30px;
+    margin: 25px;
+}
+
+.menu{
+    display: flex;
+   justify-content: space-between;
+   background-color: #e2a6b9;
+   padding:15px;
+   font-size: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 400;
+   color:#ffffff;
+}
+.body{
+    background-color: #e2a6b9;
+    margin: 0px;
+}
+
+a:link{
+   text-decoration: none;
+    color:yellow;
+}
+
+a:visited{
+    text-decoration: none;
+    color:rgb(116, 8, 116);
+}
+
+.origami:hover img{
+    transform: scale(1.2);
+    
+    }
+    
